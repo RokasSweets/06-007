@@ -8,7 +8,7 @@ _website design project_
 
 This project is for educational porpuses only. Pull request are welcome, but priority for project authors! Thank you for your cooperation!
 
-Site published at: [Github](https://rokassweets.github.io/05-prmdn)
+Site published at: [Github](https://rokassweets.github.io/06-007)
 
 Design: [Coming soon](./img/design.png)
 
