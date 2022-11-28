@@ -1,0 +1,24 @@
+{
+  "name": "06-007",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "dev": "dead-server",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RokasSweets/06-007.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RokasSweets/06-007/issues"
+  },
+  "homepage": "https://github.com/RokasSweets/06-007#readme",
+  "devDependencies": {
+    "dead-server": "^1.0.9"
+  }
+}
