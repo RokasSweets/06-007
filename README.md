@@ -19,6 +19,7 @@ Design: [Coming soon](./img/design.png)
 -   CSS animation
 -   form
 -   FontAwesome icons
+-   CSS units: vh, vw, vmin, vmax
 
 ## 🧰 Getting Started
 
