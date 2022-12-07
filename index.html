@@ -19,6 +19,8 @@
     <!-- 3rd-party -->
     <link rel="stylesheet" href="./css/3rd-party/font-awesome.min.css">
     <!-- components -->
+    <link rel="stylesheet" href="./css/components/button.css">
+    <link rel="stylesheet" href="./css/components/form.css">
     <link rel="stylesheet" href="./css/components/clock.css">
     <link rel="stylesheet" href="./css/components/mouse.css">
     <link rel="stylesheet" href="./css/components/progress-bar.css">
@@ -50,7 +52,19 @@
                     <div class="value">39</div>
                     <div class="label">Seconds</div>
                 </div>
+    <div>
+        <form action="/">
+                <div class="hero-form">
+                        <label for="email">Email</label>
+                        <input name="email" id="email" type="email" placeholder="Type your email...">
+                    </div>
+                    <br>
+                    <div>
+                        <button class="btn">Subscribe Now</button>
+                    </div>
+                </form>
             </div>
+     </div>
             <div class="mouse"></div>
         </div>
     </section>
@@ -97,6 +111,23 @@
             <div class="column right">
                 <h2 class="section-title">Have any question?</h2>
                 <p class="section-description">Lorem ipsum dolor sit amet, consectetur adipisicing elit. <a href="mailto:vardenis@pavardenis.lt">vardenis@pavardenis.lt</a> Aliquid, reprehenderit.</p>
+                <form action="/">
+                    <div class="cell-1">
+                        <label for="name">Name</label>
+                        <input id="name" name="name" type="text" placeholder="Your name..." required>
+                    </div>
+                    <div class="cell-1">
+                        <label for="email">Email</label>
+                        <input id="email" name="email" type="email" placeholder="Your email..." required>
+                    </div>
+                    <div class="cell-2">
+                        <label for="message">Message</label>
+                        <textarea name="message" id="message" placeholder="Your message..." required></textarea>
+                    </div>
+                    <div class="cell-2">
+                        <button class="btn">Send Message</button>
+                    </div>
+                </form>
             </div>
         </div>
     </section>
