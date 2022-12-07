@@ -30,11 +30,20 @@
 }
 
 .progress-bar-list .progress > .bar {
+    --w: 90%;
     height: 100%;
-    width: 90%;
+    width: var(--w);
     background-color: var(--main-color);
+    animation-name: loading;
+    animation-duration: 2s;
 }
 
-
-
+@keyframe loading {
+    0%{
+        width: 0;
+    }
+    100%{
+        width: var(--w):
+    }
+}
 
